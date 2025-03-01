@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabaseDataSource",
+	"properties": {
+		"description": "Connection to your data source store.",
+		"linkedServiceName": {
+			"referenceName": "linkedService2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sales_data"
+		}
+	}
+}
